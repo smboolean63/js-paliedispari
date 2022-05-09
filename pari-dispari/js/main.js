@@ -29,7 +29,7 @@ function evenOdd(num) {
 // 1. utente inserisce pari o dispari
 let userChoice;
 do {
-    userChoice = prompt("Scegli fra pari e dispari");
+    userChoice = prompt("Scegli fra pari e dispari").toLowerCase();
 } while(userChoice !== "pari" && userChoice !== "dispari");
 // do {
 //     userChoice = prompt("Scegli fra pari e dispari");
